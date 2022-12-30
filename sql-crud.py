@@ -80,12 +80,12 @@ tim_berners_lee = Programmer(
     famous_for="World Wide Web"
 )
 
-your_name = Programmer(
-    first_name="Your First Name",
-    last_name="Your Last Name",
-    gender="Your Gender",
-    nationality="Your Nationality",
-    famous_for="Celebrate Yourself Here"
+alan_cruz = Programmer(
+    first_name="Alan",
+    last_name="Cruz",
+    gender="M",
+    nationality="Brazilian",
+    famous_for="Celebrate Myself Here"
 )
 
 # add each instance of our programmers to our session
@@ -95,7 +95,7 @@ your_name = Programmer(
 # session.add(margaret_hamilton)
 # session.add(bill_gates)
 # session.add(tim_berners_lee)
-# session.add(your_name)
+# session.add(alan_cruz)
 
 
 # updating a single record
